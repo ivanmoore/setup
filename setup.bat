@@ -9,4 +9,7 @@ git config --global push.default simple
 git config --global alias.dt difftool
 git config --global merge.tool kdiff3
 git config --global --add difftool.prompt false
+git config --global alias.incoming '!git remote update -p; git log ..@{u}'
+git config --global alias.outgoing 'log @{u}..'
+git config --global alias.up "pull --rebase"
 
