@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-get update
 sudo apt-get install -y git kdiff3 curl
 sudo add-apt-repository ppa:webupd8team/java
