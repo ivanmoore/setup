@@ -1,3 +1,5 @@
+#!/bin/bash
+
 git config --global user.name "Ivan Moore"
 git config --global user.email "ivan@teamoptimization.com"
 git config --global alias.rb rebase
