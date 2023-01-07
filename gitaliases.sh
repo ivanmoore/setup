@@ -8,6 +8,7 @@ git config --global alias.st status
 git config --global alias.ci commit
 git config --global alias.co checkout
 git config --global alias.lg log -p
+git config --global alias.log1 'log --pretty=format:"%adi %an %s"'
 git config --global push.default simple
 git config --global alias.dt difftool
 git config --global merge.tool kdiff3
