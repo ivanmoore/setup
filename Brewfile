@@ -10,6 +10,7 @@ brew "awscli"
 brew "adr-tools"
 brew "coreutils"
 # didn't work: brew "gcc" # for pyenv, for chalice, CC=/opt/homebrew/bin/gcc-12 pyenv install 3.9.16
+brew "diff-pdf"
 brew "graphviz"
 brew "jq"
 # didn't work: brew "pyenv"
