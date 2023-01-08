@@ -9,10 +9,11 @@ tap "homebrew/services"
 brew "awscli"
 brew "adr-tools"
 brew "coreutils"
-brew "gcc" # for pyenv, for chalice, CC=/opt/homebrew/bin/gcc-12 pyenv install 3.7.3
+# didn't work: brew "gcc" # for pyenv, for chalice, CC=/opt/homebrew/bin/gcc-12 pyenv install 3.9.16
 brew "graphviz"
 brew "jq"
-brew "pyenv"
+# didn't work: brew "pyenv"
+brew "python@3.9" # /opt/homebrew/bin/python3.9
 brew "thefuck"
 brew "tree"
 brew "watch"
