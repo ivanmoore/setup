@@ -26,3 +26,7 @@ export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
 use macOS Virtualisation Framework with Virtiofs for best performance:
 
 colima start --vm-type vz --mount-type virtiofs --cpu 2 --memory 2
+
+Uninstalling colima:
+- edit ~/.zshrc to remove `DOCKER_HOST` line
+- `docker context use default`
